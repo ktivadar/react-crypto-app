@@ -1,2 +1,1 @@
-# react-crypto-app
-Building a Cryptocurrency App using React
+# React project for crypto business
