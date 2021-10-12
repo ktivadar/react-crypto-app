@@ -33,6 +33,9 @@ const Navbar = () => {
                 <Typography.Title level={2} className="logo">
                     <Link to="/">Cryptoinfo</Link>
                 </Typography.Title>
+                <Button className="menu-control-container" onClick={() => setActiveMenu(!activeMenu)}>
+                    <MenuOutlined/>
+                </Button>
                 </div>
                 {activeMenu && (
                 <Menu theme="dark">
